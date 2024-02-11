@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const reviewsSchema = new mongoose.Schema(
   {
@@ -7,8 +7,8 @@ const reviewsSchema = new mongoose.Schema(
     movie_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Movies', required: true },
   },
   { timestamps: true }
-);
+)
 
-const Reviews = mongoose.model('Reviews', reviewsSchema);
+const Reviews = mongoose.model('Reviews', reviewsSchema)
 
-module.exports = Reviews;
+module.exports = Reviews

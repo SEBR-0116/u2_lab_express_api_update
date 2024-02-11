@@ -20,8 +20,18 @@ const main = async () => {
       movie_id: blackClover[0]._id,
     },
     {
+      score: '10 from IMDb',
+      comment: `Great animation really nice story. Wish it was abit longer since I felt it was quite abit rushed but loved it regardless. I seen it with a friend who haven't watched black clover before and he managed to understand it which I wasn't expecting tbh since it takes place at around the 158th episode. The animation was top tier from start to finish something we aren't very used to in black clover they also nailed the characters designs. There were a little bit of foreshadowing for what happens in the manga but nothing that people who haven't read it will notice. Overall definitely give it a shot if you're a fan of fantasy magic and an MC who will stop at nothing to achieve his dream!`,
+      movie_id: blackClover[0]._id,
+    },
+    {
       score: '8.2 from IMDb',
       comment: `I read the manga so I knew what would happen but seeing it animated just brought another level of heartbreak to me. With the amazing animation and background music, I was engrossed in this movie. Also, the final fight scene between Rengoku and the Upper Rank Three demon was probably one of the best fight scenes I've watched so far. Granted, I haven't watched many fight scenes. Still, it was such a pleasure to watch.`,
+      movie_id: demonSlayer[0]._id,
+    },
+    {
+      score: '9.3 from IMDb',
+      comment: `There isn't enough ink or paper in the world to write down everything i loved about this visual spectacle, not that my words could even scratch the surface of fully captivating this level of quality. So I'll just say the things that stopped this masterful work from being a 10/10. There is an large amount of blatant exposition is this film, there are times when it makes sense for a character to be revealing such information but Enmu just stood on top of the train telling his entire plan and more for over 10 minutes for no reason. The music is still top notch but I don't think it was nearly as powerful as the score in the 1st season which stuck to more traditional Japanese instruments. Stop reading this already and go watch it!!!`,
       movie_id: demonSlayer[0]._id,
     },
     {
@@ -32,6 +42,11 @@ const main = async () => {
     {
       score: '8.0 from IMDb',
       comment: `This is a rare, light-hearted science fiction film that deliberately downplays the most common fears about the future and the unknown universe, focusing instead on human effort and the science that can save humanity.The film has a tech-geek's idiocy and optimism. (Matt Damon, of course, did it perfectly.)Even if the movie is a little bit stereotypical in its emotional setting, it can still touch the audience at crucial moments.`,
+      movie_id: theMartian[0]._id,
+    },
+    {
+      score: '9.0 from IMDb',
+      comment: `The film is the finest examples of science fiction and science fiction embodies everything required. Matt Damon has given the right role until the end of the case. Besides the fact that one does not really need. All movies have moved on their own. We have seen examples of this, such as the Buried and 127 Hours of very good quality movies. The master Ridley Scott's science fiction after a long separation has made a great comeback with this film case. After this film, Ridley Scott disappointing those who say the sound was cut. Thank you for this wonderful film Ridley masters. Maybe the best in 2015, as I mentioned in the title.`,
       movie_id: theMartian[0]._id,
     },
     {

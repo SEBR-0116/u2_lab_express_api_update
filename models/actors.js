@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const actorsSchema = new mongoose.Schema(
   {
@@ -9,8 +9,8 @@ const actorsSchema = new mongoose.Schema(
     movie_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Movies', required: true }
   },
   { timestamps: true }
-);
+)
 
-const Actors = mongoose.model('Actors', actorsSchema);
+const Actors = mongoose.model('Actors', actorsSchema)
 
-module.exports = Actors;
+module.exports = Actors
